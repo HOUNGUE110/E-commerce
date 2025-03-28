@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(0, 39, 77);
+    color: white;
+    padding: 10px;
+    box-shadow: 1px, solid, transparent;
+
+}
+h1 {
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+    color:white;
+    text-align: center;
+}
+nav {
+    display: block;
+    text-align: center;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    justify-content: space-around;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    font-size: large;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.05s;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    transition: 0.05s;
+}
+nav li a:hover {
+    background-color: transparent;
+    color: blue;
+    font-size: 20px;
+    transition: 0.05s;
+}
+
+.produit {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+}
+
+.produit img {
+    max-width: 100%;        
+}
+#produits h2 {
+    font-size: 23px;
+    text-align: center;
+    text-decoration: underline;
+}
+.AjoutPanier {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.AjoutPanier:hover {
+    background-color: #2424b2;
+}
+
+footer {
+    background-color: rgb(0, 39, 77);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    ;
+    bottom: 0;
+    width: 100%;
+}
+/*
+@media screen and (max-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    nav li {
+        display: block;
+    }
+    nav li a {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .produit {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    nav {
+        display: block;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    nav li {
+        display: block;
+    }
+    nav li a {
+        display: block;
+    }
+    .produit {
+        width: 100%;
+    }
+}
+    */
+#lien a {
+    color: rgb(35, 43, 197);
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+#lien a:hover {
+    background-color: transparent;
+    color: navy;
+    font-size: 20px;
+    transition: 0.05s;
+}
+main {
+    margin-bottom: 100px;
+}
+
+#panier {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+#panier h2 img {
+    vertical-align: middle; 
+    margin-right: 5px; 
+    height: 75px; 
+    width: auto; 
+    filter: brightness(100%); 
+    object-position: 20% 20%; 
+    margin-left: 10px;
+}
+#validerPanier {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
