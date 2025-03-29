@@ -1,10 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     margin: 0;
 }
 
 header {
-    background-color: rgb(0, 39, 77);
+    background-color: rgb(2, 56, 110);
     color: white;
     padding: 10px;
     box-shadow: 1px, solid, transparent;
@@ -86,7 +86,7 @@ nav li a:hover {
 }
 
 footer {
-    background-color: rgb(0, 39, 77);
+    background-color: rgb(2, 56, 110);
     color: white;
     padding: 10px;
     text-align: center;
@@ -175,4 +175,15 @@ main {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+#compte h2 img {
+    vertical-align: middle; 
+    margin-right: 5px; 
+    height: 75px; 
+    width: auto; 
+    filter: brightness(100%); 
+    object-position: 20% 20%; 
+    margin-left: 10px;
+    margin-top: 50px;
 }
