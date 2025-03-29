@@ -22,8 +22,9 @@ nav {
     align-items: flex-start;
     padding: 10px;
     margin: 10px;
-    background-color: transparent;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /*background-color: transparent;
+    box-shadow: 0 2px 5px rgba(2, 56, 110);
+    border-radius: 2px;*/
     justify-content: space-around;
 }
 nav ul {
@@ -63,10 +64,12 @@ nav li a:hover {
 .produit img {
     max-width: 100%;        
 }
+
 #produits h2 {
-    font-size: 23px;
+    font-size: 28px;
     text-align: center;
     text-decoration: underline;
+    color: rgb(1, 27, 53);
 }
 .AjoutPanier {
     background-color: #4CAF50;
@@ -82,7 +85,11 @@ nav li a:hover {
 }
 
 .AjoutPanier:hover {
-    background-color: #2424b2;
+    background-color: #217dde;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    transition: 0.05s;
 }
 
 footer {
