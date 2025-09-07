@@ -1,6 +1,5 @@
 body {
     font-family: Georgia, Times, 'Times New Roman', serif;
-    margin: 0;
 }
 
 header {
@@ -16,6 +15,9 @@ h1 {
     color:white;
     text-align: center;
 }
+
+
+   
 nav {
     display: block;
     text-align: center;
@@ -48,67 +50,91 @@ nav li a {
 }
 nav li a:hover {
     background-color: transparent;
-    color: blue;
+    color: rgb(38, 199, 227);
     font-size: 20px;
     transition: 0.05s;
 }
 
 .produit {
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     padding: 10px;
     margin: 10px;
-    width: 200px;
+    width: 180px;
+    height: auto;
     display: inline-block;
     border-radius: 10px;
+    justify-content: center;
+    text-align: center;
 }
 .produit:hover {
-    border-color: #4CAF50;
+    border-color: #4863d1;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease;
-    transform: translateY(-5px) translateX(-5px);
+    transform: translateY(-5px) translateX(5px);
     border-radius: 15px;
 }
 .produit img {
-    max-width: 100%;        
+    width: 150px;
+    max-height: 180px;
+    object-fit: cover;
+    padding: 10;
 }
 
-#produits h2 {
+.produit p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+#produits h2 {                                                       
     font-size: 28px;
     text-align: center;
     text-decoration: underline;
     color: rgb(1, 27, 53);
 }
-.AjoutPanier {
+.produit .AjoutPanier {
     background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .AjoutPanier:hover {
-    background-color: #217dde;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: 'Times New Roman';
-    transition: 0.05s;
+    background-color:white;
+    color: rgb(1, 141, 1);
+    border: solid 2px green;
 }
+
+#validerPanier {
+    background-color: blue;
+    border-radius: 8px;
+}
+#validerPanier:hover {
+    background-color: white;
+    color: blue;
+    border-radius: 8px;
+    border: solid 2px blue;
+}
+
+
 
 footer {
     background-color: rgb(2, 56, 110);
     color: white;
     padding: 10px;
     text-align: center;
-    ;
     bottom: 0;
     width: 100%;
 }
-/*
+
+
+/* Responsive Styles */
+
 @media screen and (max-width: 600px) {
     nav ul {
         display: flex;
